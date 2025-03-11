@@ -240,5 +240,7 @@ var config = {
                     layer: 'different-hdb-d28f8z',
                     opacity: 0.8
                 }
+            ]  
+        }
     ]
 };
