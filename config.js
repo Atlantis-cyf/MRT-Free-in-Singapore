@@ -182,6 +182,64 @@ var config = {
                     layer: 'different-hdb-d28f8z',
                     opacity: 0.8
                 }
+                {
+            id: 'four-container',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Summary',
+            description: 'This data analysis map identifies areas in Singapore that are not currently covered by the MRT network.
+<br><br>By visualizing the distribution of MRT stations and their surrounding coverage areas, the map highlights neighborhoods that are not within easy access to rapid transit systems. Areas that are outside these defined walking distances are considered underserved by the MRT, suggesting potential areas for future infrastructure development to improve public transport accessibility in Singapore.
+<br><br>This map serves as a tool to identify underserved regions, which could benefit from public transportation expansion. ',
+            location: {
+                center: [103.88385, 1.36856],
+                zoom: 14.4,
+                pitch: 45,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'MRT-trainstationexit-7fu1eh',
+                    opacity: 0.2
+                },
+                {
+                    layer: 'resale-hdb-jan-june-2021-1fewz8 (1)',
+                    opacity: 0.2              
+                },
+                {
+                    layer: 'isochrones2-0qhp2i',
+                    opacity: 0.8                
+                },
+                {
+                    layer: 'different-hdb-d28f8z',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'MRT-trainstationexit-7fu1eh',
+                    opacity: 0.3
+                },
+                {
+                    layer: 'resale-hdb-jan-june-2021-1fewz8 (1)',
+                    opacity: 0.3               
+                },
+                {
+                    layer: 'isochrones2-0qhp2i',
+                    opacity: 0.3                
+                },
+                {
+                    layer: 'different-hdb-d28f8z',
+                    opacity: 0.8
+                }
             ]
         }
     ]
