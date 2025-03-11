@@ -182,7 +182,7 @@ var config = {
                     layer: 'different-hdb-d28f8z',
                     opacity: 0.8
                 }
-            ]  
+            ]
         },
         {
             id: 'four-container',
@@ -240,7 +240,7 @@ var config = {
                     layer: 'different-hdb-d28f8z',
                     opacity: 0.8
                 }
-            ]  
+            ]
         }
     ]
 };
