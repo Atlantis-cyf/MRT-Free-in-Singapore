@@ -187,9 +187,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: 'Summary',
-            description: 'This data analysis map identifies areas in Singapore that are not currently covered by the MRT network.
-<br><br>By visualizing the distribution of MRT stations and their surrounding coverage areas, the map highlights neighborhoods that are not within easy access to rapid transit systems. Areas that are outside these defined walking distances are considered underserved by the MRT, suggesting potential areas for future infrastructure development to improve public transport accessibility in Singapore.
-<br><br>This map serves as a tool to identify underserved regions, which could benefit from public transportation expansion. ',
+            description: 'This data analysis map identifies areas in Singapore that are not currently covered by the MRT network.<br><br>By visualizing the distribution of MRT stations and their surrounding coverage areas, the map highlights neighborhoods that are not within easy access to rapid transit systems. Areas that are outside these defined walking distances are considered underserved by the MRT, suggesting potential areas for future infrastructure development to improve public transport accessibility in Singapore.<br><br>This map serves as a tool to identify underserved regions, which could benefit from public transportation expansion. ',
             location: {
                 center: [103.88385, 1.36856],
                 zoom: 14.4,
